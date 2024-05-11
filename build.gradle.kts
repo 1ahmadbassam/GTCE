@@ -86,8 +86,8 @@ minecraft {
 
 repositories {
     maven {
-        name = "ic2, forestry"
-        setUrl("http://maven.ic2.player.to/")
+        name = "CurseMaven"
+        setUrl("https://cursemaven.com")
     }
     maven { //JEI
         name = "Progwml6 maven"
@@ -120,9 +120,7 @@ repositories {
 }
 
 dependencies {
-    "deobfCompile"("net.sengir.forestry:forestry_$mcVersion:$forestryVersion") {
-        isTransitive = false
-    }
+    "deobfCompile"("curse.maven:forestry-59751:2636586")
     "deobfCompile"("codechicken:ChickenASM:$shortVersion-$chickenasmVersion")
     "deobfCompile"("codechicken-lib-1-8:CodeChickenLib-$mcVersion:$cclVersion:universal")
     "deobfCompile"("CraftTweaker2:CraftTweaker2-MC$strippedVersion-Main:$crafttweakerVersion")
