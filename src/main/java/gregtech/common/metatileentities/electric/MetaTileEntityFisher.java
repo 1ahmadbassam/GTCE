@@ -36,6 +36,7 @@ import java.util.List;
 public class MetaTileEntityFisher extends TieredMetaTileEntity {
 
     private static final int WATER_CHECK_SIZE = 25;
+    private static final int FISHING_TICK_BASE = 1000;
     
     private final int inventorySize;
     private final long fishingTicks;
@@ -43,8 +44,8 @@ public class MetaTileEntityFisher extends TieredMetaTileEntity {
 
     public MetaTileEntityFisher(ResourceLocation metaTileEntityId, int tier){
         super(metaTileEntityId, tier);
-        this.inventorySize = (tier + 1) * (tier + 1);
-        this.fishingTicks = 1000 - tier * 200;
+        this.inventorySize = (tier < 6) ? (tier + 1) * (tier + 1) : 36;
+        this.fishingTicks = FISHING_TICK_BASE/(tier+1);
         this.energyAmountPerFish = GTValues.V[tier];
         initializeInventory();
     }
