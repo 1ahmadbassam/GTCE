@@ -1,5 +1,31 @@
 ## Changelog
 
+### 1.17.5
+* Merge branch 'pr/1701' - Ahmad Bassam El Bizri
+* Merge branch 'master' into pr/1703 - Ahmad Bassam El Bizri
+* Merge branch 'pr/1724' - Ahmad Bassam El Bizri
+* Merge branch 'pr/1728' - Ahmad Bassam El Bizri
+* Merge branch 'fix-phosphate-typo' - Ahmad Bassam El Bizri
+* Merge branch 'pr/1746' - Ahmad Bassam El Bizri
+* Adjusted sodium hydroxide recipes - TheDarkDnKTv
+* Fixed CTs not-consumable ingredients does not match recipe - TheDarkDnKTv
+* Caused by creating ItemStack of size 0, which is empty (air) - TheDarkDnKTv
+* Fix lang file typo for Tricalcium Phosphate - Exaxxion
+* Corrects inadvertent rename to "Tricalcium Phospate" during the lang file adjustment in #1718 - Exaxxion
+* Fixed tabs - TheDarkDnKTv
+* Fixed implementaion - TheDarkDnKTv
+* Fixed inputs getter - TheDarkDnKTv
+* Fix Quantum Chest voiding items near maximum capacity - alongstringofnumbers
+* Merge branch 'master' into fix-server-localisation - Florian Kostenzer
+* Fix no space in setCooldown - Yurii Shnitkovskyi
+* Fixed starting block not being added to visited - Yurii Shnitkovskyi
+* Fix small issues with forest capitator - Yurii Shnitkovskyi
+* Fixed extra damage to tool when iterating over non-log block - Yurii Shnitkovskyi
+* Fixed possibility of creating multiple chop tasks by applying cooldown - Yurii Shnitkovskyi
+* Update LocalisationUtils docs - Florian Kostenzer
+* Only use LocalisationUtils where needed - Florian Kostenzer
+* Move all I18n calls LocalisationUtils and allow getItemStackDisplayName on servers - Florian Kostenzer
+
 ### 1.17.4
 * Merge pipe fixes, bump version - Ahmad Bassam El Bizri
 * Merge branch 'pipefixes' - Ahmad Bassam El Bizri
