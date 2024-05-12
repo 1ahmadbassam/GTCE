@@ -229,7 +229,7 @@ public class MetaTileEntityBlockBreaker extends TieredMetaTileEntity {
     }
 
     private float getEfficiencyMultiplier() {
-        return 1.0f - MathHelper.clamp(1.0f - 0.2f * (getTier() - 1.0f), 0.1f, 1.0f);
+        return 1.0f - MathHelper.clamp(1.0f - 0.144f * (getTier() - 1.0f), 0.001f, 1.0f);
     }
 
     @Override

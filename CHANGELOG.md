@@ -1,5 +1,35 @@
 ## Changelog
 
+### 1.17.4
+* Merge pipe fixes, bump version - Ahmad Bassam El Bizri
+* Merge branch 'pipefixes' - Ahmad Bassam El Bizri
+* Initial commit. Fix fisher invalid ticks with higher (>4) tiers (for use with GregicAdditions) - Ahmad Bassam El Bizri
+* Revert "Add vanilla dusts to dustRegular" - warjort
+* This reverts commit fe747833a7276f87757becc872ac59db026c9afc - warjort
+* Add vanilla dusts to dustRegular - warjort
+* Resolve merge conflit with mcp - warjort
+* Typo - warjort
+* Mark the pipenet as dirty when the fluid tank fluid amount changes - warjort
+* Only check for old data when getNetFromPos can't find data - warjort
+* Add some self healing for converting old pipe data to new pipe data - warjort
+* (#1398) Use old WorldPipeData multiplexing when old data exists for backwards compatibility - warjort
+* Fixes for WorldSaveData dimension handling (#1398) and fluid in pipes not being persisted (#1357) - warjort
+
+### 1.17.3
+* Merge pipe fixes, bump version - Ahmad Bassam El Bizri
+* Merge branch 'pipefixes' - Ahmad Bassam El Bizri
+* Initial commit. Fix fisher invalid ticks with higher (>4) tiers (for use with GregicAdditions) - Ahmad Bassam El Bizri
+* Revert "Add vanilla dusts to dustRegular" - warjort
+* This reverts commit fe747833a7276f87757becc872ac59db026c9afc - warjort
+* Add vanilla dusts to dustRegular - warjort
+* Resolve merge conflit with mcp - warjort
+* Typo - warjort
+* Mark the pipenet as dirty when the fluid tank fluid amount changes - warjort
+* Only check for old data when getNetFromPos can't find data - warjort
+* Add some self healing for converting old pipe data to new pipe data - warjort
+* (#1398) Use old WorldPipeData multiplexing when old data exists for backwards compatibility - warjort
+* Fixes for WorldSaveData dimension handling (#1398) and fluid in pipes not being persisted (#1357) - warjort
+
 ### 1.17.2
 
 
