@@ -16,10 +16,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import org.apache.commons.lang3.tuple.Pair;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.function.Function;
 
 public class MetaFluids {
@@ -142,7 +139,7 @@ public class MetaFluids {
         for (Material material : Material.MATERIAL_REGISTRY) {
             if (!(material instanceof FluidMaterial)) continue;
             FluidMaterial fluidMaterial = (FluidMaterial) material;
-            if (fluidMaterial.shouldGenerateFluid() && fluidMaterial.getMaterialFluid() == null) {
+            if ((fluidMaterial.shouldGenerateFluid() || Objects.equals(fluidMaterial, Materials.Glass)) && fluidMaterial.getMaterialFluid() == null) {
                 int temperature = fluidMaterial.getFluidTemperature();
                 Fluid fluid = registerFluid(fluidMaterial, FluidType.NORMAL, temperature);
                 fluidMaterial.setMaterialFluid(fluid);

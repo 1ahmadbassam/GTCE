@@ -398,7 +398,7 @@ public class Materials {
     /**
      * Second Degree Compounds
      */
-    public static GemMaterial Glass = new GemMaterial(209, "glass", 0xFFFFFF, GLASS, 0, of(new MaterialStack(SiliconDioxide, 1)), GENERATE_PLATE | GENERATE_LENSE | NO_SMASHING | NO_RECYCLING | SMELT_INTO_FLUID | EXCLUDE_BLOCK_CRAFTING_RECIPES);
+    public static GemMaterial Glass = new GemMaterial(209, "glass", 0xFFFFFF, GLASS, 0, of(new MaterialStack(SiliconDioxide, 1)), GENERATE_PLATE | GENERATE_LENSE | NO_SMASHING | NO_RECYCLING | EXCLUDE_BLOCK_CRAFTING_RECIPES);
     public static DustMaterial Perlite = new DustMaterial(210, "perlite", 0x1E141E, DULL, 1, of(new MaterialStack(Obsidian, 2), new MaterialStack(Water, 1)), 0);
     public static DustMaterial Borax = new DustMaterial(313, "borax", 0xFFFFFF, SAND, 1, of(new MaterialStack(Sodium, 2), new MaterialStack(Boron, 4), new MaterialStack(Water, 10), new MaterialStack(Oxygen, 7)), 0);
     public static GemMaterial Lignite = new GemMaterial(211, "lignite", 0x644646, LIGNITE, 0, of(new MaterialStack(Carbon, 2), new MaterialStack(Water, 4), new MaterialStack(DarkAsh, 1)), GENERATE_ORE | FLAMMABLE | NO_SMELTING | NO_SMASHING | MORTAR_GRINDABLE);

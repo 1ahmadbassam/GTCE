@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.17.6
+* Update README.md - Ahmad Bassam El Bizri
+
 ### 1.17.5
 * Merge branch 'pr/1701' - Ahmad Bassam El Bizri
 * Merge branch 'master' into pr/1703 - Ahmad Bassam El Bizri
