@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.17.7
+* Restore faster fishing from GregicAdditions - Ahmad Bassam El Bizri
+
 ### 1.17.6
 * Update README.md - Ahmad Bassam El Bizri
 
