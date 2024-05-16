@@ -1,5 +1,8 @@
 ## Changelog
 
+### 1.17.8
+* Revert removing glass recipes with the hacky way (fixed in GregsConstruct) - Ahmad Bassam El Bizri
+
 ### 1.17.7
 * Restore faster fishing from GregicAdditions - Ahmad Bassam El Bizri
 
