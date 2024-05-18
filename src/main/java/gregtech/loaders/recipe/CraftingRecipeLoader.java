@@ -230,6 +230,8 @@ public class CraftingRecipeLoader {
             ModHandler.removeRecipeByName(new ResourceLocation("minecraft:flint_and_steel"));
         }
 
+        ModHandler.removeRecipeByName(new ResourceLocation("minecraft:hay_block"));
+
         ModHandler.addShapedRecipe("battery_hull_lv", MetaItems.BATTERY_HULL_LV.getStackForm(), "C", "P", "P", 'C', new UnificationEntry(OrePrefix.cableGtSingle, Materials.Tin), 'P', new UnificationEntry(OrePrefix.plate, Materials.BatteryAlloy));
         ModHandler.addShapedRecipe("battery_hull_mv", MetaItems.BATTERY_HULL_MV.getStackForm(), "C C", "PPP", "PPP", 'C', new UnificationEntry(OrePrefix.cableGtSingle, Materials.Copper), 'P', new UnificationEntry(OrePrefix.plate, Materials.BatteryAlloy));
 
